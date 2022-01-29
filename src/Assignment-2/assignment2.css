@@ -5,3 +5,74 @@
 width: 100%;
 height: 100%;
 }
+body{
+  border: 1px solid black;
+}
+ul li{
+  list-style: none;
+}
+.page-logo{
+  width: 100px;
+  height: 100px;
+}
+header{
+  border-bottom: 1px solid black;
+  padding: 10px;
+  margin: 10px 0px;
+}
+.page-header{
+  background-color: darkseagreen;
+  height: 100px;
+}
+.page-header form{
+  display: inline-block;
+  float: right;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.page-header form input {
+  width: 40px;
+}
+header navbar {
+  border: 1px solid black;
+}
+header navbar nav ul {
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+header navbar nav ul li{
+  display: inline-block;
+  margin: 0px 30px;
+}
+.page-layout{
+  width: 100%;
+}
+.page-layout aside,.page-layout section{
+  display: inline-block;
+  border: 1px solid black;
+vertical-align: top;
+}
+.page-layout aside{
+  width: 20%;
+  height: 65vh;
+}
+.page-layout section{
+  width: 40%;
+}
+.left-block ul li{
+  margin: 15px 0px;
+}
+.post-img {
+  width: 160px;
+  height: 200px;
+}
+.row .post-img {
+  display: inline-block;
+  margin: 5px;
+}
+footer {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
